@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1>Welcome To Flipkart Slide Bar</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="image/fancy-and-designer-wall-clock-for-home-offices-bedroom-living-original-imag4hyvahrggekr.webp"
+                alt="">
+
+            <p>R&P ENTERPRISE Analog 65 cm X 35 cm Wall Clock </p>
+            <p class="black">Black, Red, Without Glass, Standard</p>
+
+            <div class="assured">
+                <span class="star">4.2 <i class="fa-solid fa-star"></i> </span>
+                <span class="star-grey">(26,658)</span>
+                <span class="assur"><img src="fa_62673a.png" alt=""></span>
+            </div>
+
+            <div class="off">
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>299</h3>
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>2,616</h3>
+                <p class="off-perc">88% off</p>
+            </div>
+            <div class="free">Free delivery by <span>Today</span> </div>
+
+
+            <h4>Hot Deal</h4>
+
+        </div>
+
+
+        <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="image/krishna.webp" alt="">
+
+            <p>Chhariya Crafts Metal Krishna with Cow Standing Under T...
+            </p>
+            <p class="black"> Metal, Gold</p>
+
+            <div class="assured">
+                <span class="star">4.3 <i class="fa-solid fa-star"></i> </span>
+                <span class="star-grey">(180,700)</span>
+                <span class="assur"><img src="fa_62673a.png" alt=""></span>
+            </div>
+
+            <div class="off">
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>290</h3>
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>999</h3>
+                <p class="off-perc">70% off</p>
+            </div>
+            <div class="free">Free delivery by <span>Today</span> </div>
+
+
+            <h4>Deal of the Day</h4>
+
+        </div>
+
+
+
+
+        <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="image/budha.webp" alt="">
+
+            <p>GW Creations Set of 4 Showpiece for Home Decor, Handicr...
+            </p>
+            <p class="black">Polyresin, Multicolor</p>
+
+            <div class="assured">
+                <span class="star">4.4 <i class="fa-solid fa-star"></i> </span>
+                <span class="star-grey">(16,357)</span>
+                <span class="assur"><img src="fa_62673a.png" alt=""></span>
+            </div>
+
+            <div class="off">
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>209</h3>
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>781</h3>
+                <p class="off-perc">73% off</p>
+            </div>
+            <div class="free">Free delivery by <span>Today</span> </div>
+
+
+            <h4>Deal of the Day </h4>
+
+        </div>
+
+
+
+        <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="image/painting.webp" alt="">
+
+            <p>Dekorstation Walk in The Park Relaxing Big Panoramic Fr... </p>
+            <p class="black"> With Frame</p>
+
+            <div class="assured">
+                <span class="star">4.3 <i class="fa-solid fa-star"></i> </span>
+                <span class="star-grey">(6,357)</span>
+                <span class="assur"><img src="fa_62673a.png" alt=""></span>
+            </div>
+
+            <div class="off">
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>2,875</h3>
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>4,999</h3>
+                <p class="off-perc">42% off</p>
+            </div>
+            <div class="free">Free delivery by <span>Today</span> </div>
+
+
+            <h4>Hot Deal </h4>
+
+        </div>
+
+
+
+        <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="image/crick-net.webp" alt="">
+
+            <p>Clark 10*10 CLK11 cricket practice net Cricket Net </p>
+            <p class="black"> Blue</p>
+
+            <div class="assured">
+                <span class="star">3.9 <i class="fa-solid fa-star"></i> </span>
+                <span class="star-grey">(199)</span>
+                <span class="assur"><img src="fa_62673a.png" alt=""></span>
+            </div>
+
+            <div class="off">
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>299</h3>
+                <h3><i class="fa-solid fa-indian-rupee-sign"></i>699</h3>
+                <p class="off-perc">57% off</p>
+            </div>
+            <div class="free">Free delivery by <span>Today</span> </div>
+
+
+            <h4>Bank Offer </h4>
+
+        </div>
+
+
+    </div>
+    <button class="btn" onclick="ab()">Click for Card's</button>
+
+
+
+
+
+    <script>
+
+
+        let a = document.querySelector(".container");
+        let butt = document.querySelector(".btn")
+
+        function ab() {
+            a.classList.toggle("slide-card")
+            butt.classList.toggle("btn-slide")
+        }
+
+    </script>
+
+</body>
+
+</html>
